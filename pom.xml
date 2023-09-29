@@ -1,0 +1,51 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>examen</groupId>
+  <artifactId>Problema2</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+	  <!-- https://mvnrepository.com/artifact/org.json/json -->
+<dependency>
+    <groupId>org.json</groupId>
+    <artifactId>json</artifactId>
+    <version>20230227</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.clojure/data.csv -->
+<dependency>
+    <groupId>org.clojure</groupId>
+    <artifactId>data.csv</artifactId>
+    <version>1.0.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-csv -->
+<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-csv</artifactId>
+    <version>1.10.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/net.sf.supercsv/super-csv -->
+<dependency>
+    <groupId>net.sf.supercsv</groupId>
+    <artifactId>super-csv</artifactId>
+    <version>2.4.0</version>
+</dependency>
+	<!-- mvnrepository.com/artifact/com.opencsv/opencsv -->
+
+		<dependency>
+
+			<groupId>com.opencsv</groupId>
+
+			<artifactId>opencsv</artifactId>
+
+			<version>5.8</version>
+
+		</dependency>
+
+		<dependency>
+			<groupId>files-manager</groupId>
+			<artifactId>com.cibertec.edu</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+  </dependencies>
+</project>
